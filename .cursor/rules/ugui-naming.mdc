@@ -1,0 +1,21 @@
+---
+description: 生成 UGUI 界面时，文本、图片、按钮节点按后缀命名
+alwaysApply: true
+---
+
+# UGUI 节点命名
+
+生成或修改 UGUI 界面时，节点名字使用这些后缀：
+
+- 文本节点以 `Text` 结尾。
+- 图片节点以 `Img` 结尾。
+- 按钮节点以 `Btn` 结尾。
+- 同一节点既有按钮又有图片时，按按钮命名，以 `Btn` 结尾。
+
+```
+StartPanel
+├── TitleText
+├── BackgroundImg
+└── StartBtn
+    └── StartBtnText
+```

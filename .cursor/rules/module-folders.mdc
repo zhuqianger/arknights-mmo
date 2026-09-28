@@ -1,0 +1,31 @@
+---
+description: 代码按模块分目录，资源再按类型和模块分目录
+alwaysApply: true
+---
+
+# 按模块分目录
+
+不同功能模块的代码和资源分开存放，模块之间也不混放。资源再按类型分目录。
+
+- 代码放在 `Assets/Scripts/<模块>/`。
+- 资源放在 `Assets/<资源类型>/<模块>/`。
+- 新建或移动文件时归入对应类型和模块目录。
+
+| 类型 | 目录 |
+| --- | --- |
+| 预制体 | `Assets/Prefabs/<模块>/` |
+| 贴图 | `Assets/Textures/<模块>/` |
+| 材质 | `Assets/Materials/<模块>/` | 
+| 动画 | `Assets/Animations/<模块>/` |
+| 音频 | `Assets/Audio/<模块>/` |
+
+```
+Assets/Scripts/UI/UIButton.cs
+Assets/Prefabs/UI/Button.prefab
+Assets/Textures/UI/Button.png
+
+Assets/Scripts/Combat/Skill.cs
+Assets/Textures/Combat/SkillIcon.png
+```
+
+不要把不同模块或不同类型的文件放在同一文件夹，也不要把代码和资源放在同一文件夹。
