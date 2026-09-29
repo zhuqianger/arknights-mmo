@@ -17,6 +17,21 @@
       },
       "hash": "30d22075093d1d35dfb0091c1c7550e9ad948577"
     },
+    "com.qq.weixin.minigame": {
+      "version": "https://github.com/wechat-miniprogram/minigame-tuanjie-transform-sdk.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a09d4b29daa1dd8358b09b5b5639554ab08cfdc2"
+    },
+    "com.tripo3d.unitybridge": {
+      "version": "file:C:/Resources/UnityPackage/Tripo3d_Unity_Bridge",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,
